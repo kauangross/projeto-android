@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+
+body {
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+ul {
+    text-align: start;
+}
+
+/* CABEÇALHO DA PÁGINA */
+header {
+    background-image: linear-gradient(to bottom, #32a632, #307326, #10260d);
+    padding-top: 10px;
+    margin-right: -8px;
+    margin-left: -8px;
+
+    box-shadow:  0px 2px 3px 2px rgba(0, 0, 0, 0.408);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+#h1 {
+    display: inline-block;
+}
+
+#h1:hover {
+    color: #307326;
+}
+
+h2:hover > #h1 {
+    color: #307326;
+}
+
+#intro {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: start;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 7px 10px;
+}
+
+.link1 {
+    color: white;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.link1:hover {
+    background-color: #65c456;
+    transition: 800ms;
+}
+
+/* CORPO PRINCIPAL DA PÁGINA */
+main {
+    background-color: white;
+    text-align: center;
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    /* 
+    margin-left: 10%;
+    margin-right: 10%;
+    */
+
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.44);
+    border-radius: 0px 0px 10px 10px;
+}
+
+h2 {
+    font-family: android;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #32a63291, #6bb86b30, #ffffff);
+    padding: 0px 0px 0px 10px;
+    text-align: start;
+    font-family: android;
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 10px;
+}
+
+#video {
+    background-color: #307326;
+    padding: 15px 8px 15px 8px;
+    margin: 0px;
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+#extra {
+    background-color: #5da35d59;
+    margin: 15px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.559);
+}
+
+h4 {
+    color: white;
+    background-color: #32a632;
+    text-align: start;
+
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    color: white;
+    background-color: #307326;
+
+    margin: 0px -8px 0 -8px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+footer > p {
+    text-align: center;
+}
